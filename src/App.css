@@ -1,0 +1,31 @@
+/* @font-face {
+  font-family: Ruddy-Light;
+  src: url("./assets/font/Ruddy\ Light.otf");
+}
+@font-face {
+  font-family: Ruddy-Bold;
+  src: url("./assets/font/Ruddy-Bold.otf");
+}
+
+@font-face {
+  font-family: Inter-Bold;
+  src: url("./assets/interfont/Inter-Bold.ttf");
+}
+
+@font-face {
+  font-family: Inter-Regular;
+  src: url("./assets/interfont/Inter-Regular.ttf");
+} */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  background: rgba(144, 202, 249, 0.3);
+}
